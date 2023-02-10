@@ -35,7 +35,6 @@ form{
     text-align: center;
     width: 350px;
     height: 300px;
-    line-height: 30px;
     border-radius: 8px;
 }
 form>input{
@@ -59,12 +58,13 @@ form>input{
 #new_acc{
     width:200px;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color:rgb(4, 234, 4);
     color:aliceblue;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    
 }
 .bottom{
     margin-top: 20px;
